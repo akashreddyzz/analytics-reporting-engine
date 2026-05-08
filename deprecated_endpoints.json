@@ -1,0 +1,9 @@
+{
+  "deprecatedEndpoints": [
+    "/api/v1/reports",
+    "/api/v1/customers",
+    "/api/v1/orders"
+  ],
+  "migrationPriority": "High",
+  "migrationStatus": "Pending"
+}
