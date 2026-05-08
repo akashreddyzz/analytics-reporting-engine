@@ -1,0 +1,17 @@
+service:
+  name: analytics-reporting-engine
+
+legacy_support:
+  enabled: true
+
+deprecated_apis:
+  - /api/v1/reports
+  - /api/v1/customers
+  - /api/v1/orders
+
+migration_target:
+  api_version: v2
+
+migration_deadline:
+  quarter: Q4
+  year: 2026
